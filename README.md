@@ -2,7 +2,7 @@
 
 Procedural city generation
 
-Implement [this] algorithm](https://www.tmwhere.com/city_generation.html) to create city city layouts, which was implemented from [this](https://nothings.org/gamedev/l_systems.html) article that simpliifies the [original paper](https://cgl.ethz.ch/Downloads/Publications/Papers/2001/p_Par01.pdf)
+Implement [this algorithm](https://www.tmwhere.com/city_generation.html) to create city city layouts, which was implemented from [this article](https://nothings.org/gamedev/l_systems.html) that simplifies the [original paper](https://cgl.ethz.ch/Downloads/Publications/Papers/2001/p_Par01.pdf)
 
 
 r(ti,ri,metadata)
