@@ -32,5 +32,7 @@ while Q is not empty:
   check selected r against local constraints
   if selected r fits in localConstraints:
     add selected r to S
-    for all segments in globalGoals(r):
-      add segment to Q
+    foreach r(tj, rj, qj) produced by globalGoals(ri, qi):
+      add r(ti + 1 + tj, rj, qj) to Q
+
+
