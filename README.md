@@ -25,6 +25,7 @@ This is a function that creates all possible road segments that can be created f
 
 Algorithm:
 
+~~~
 create the first segment and add it to Q
 
 while Q is not empty:
@@ -34,5 +35,5 @@ while Q is not empty:
     add selected r to S
     foreach r(tj, rj, qj) produced by globalGoals(ri, qi):
       add r(ti + 1 + tj, rj, qj) to Q
-
+~~~
 
